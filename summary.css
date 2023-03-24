@@ -18,7 +18,7 @@
 header {
   background-color: var(--secondary-violet);
   color: white;
-
+  height: 400px;
 }
 
 header p {
@@ -41,4 +41,62 @@ header p {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 0%;
+}
+
+.description {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description p {
+  padding-top: 15px;
+  margin: 20px 15px 0px 15px;
+
+}
+ /*
+ .summary{
+display: grid;
+align-content: center;
+justify-content: start;
+align-items: center;
+justify-items: start;
+}
+*/
+
+.summary-list{
+  list-style: none;
+  gap: 2px;
+  display: grid;
+ 
+}
+
+.red{
+  background-color: var(--primary);
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 0 8px 0;
+}
+
+.yellow{
+  background-color: var(--primary-yellow);
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 0 8px 0;
+}
+
+.green{
+  background-color: var(--primary-green);
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 0 8px 0;
+}
+
+.blue{
+  background-color: var(--primary-blue);
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
 }
