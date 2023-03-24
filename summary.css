@@ -1,19 +1,22 @@
 :root {
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavander: hsl(241, 100%, 89%);
+  --dark-grey-blue: hsl(224, 30%, 27%);
+  --white-2: hsl(0, 0%, 100%);
   --primary: hsl(0, 100%, 67%);
   --primary-yellow: hsl(39, 100%, 56%);
   --primary-green: hsl(166, 100%, 37%);
   --primary-blue: hsl(234, 85%, 45%);
   --secondary-violet: hsla(256, 72%, 46%, 1);
+  --secondary-cobalt: hsl(234, 85%, 45%);
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-  
-  }
-
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
 
 header {
   background-color: var(--secondary-violet);
@@ -33,11 +36,11 @@ header p {
   margin-left: 7rem;
 }
 
-.test{
+.test {
   padding-top: 15px;
 }
 
-.test :first-child{
+.test :first-child {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 0%;
@@ -51,9 +54,8 @@ header p {
 .description p {
   padding-top: 15px;
   margin: 20px 15px 0px 15px;
-
 }
- /*
+/*
  .summary{
 display: grid;
 align-content: center;
@@ -63,40 +65,67 @@ justify-items: start;
 }
 */
 
-.summary-list{
+.summary-list {
   list-style: none;
   gap: 2px;
   display: grid;
- 
+  padding: 0;
+  margin-left: 25px;
 }
 
-.red{
-  background-color: var(--primary);
+.red {
+  background-color: rgba(255, 0, 0, 0.112);
   width: 300px;
   padding: 10px;
   border-radius: 10px;
   margin: 0 0 8px 0;
 }
 
-.yellow{
-  background-color: var(--primary-yellow);
+.yellow {
+  background-color: rgba(255, 255, 0, 0.217);
   width: 300px;
   padding: 10px;
   border-radius: 10px;
   margin: 0 0 8px 0;
 }
 
-.green{
-  background-color: var(--primary-green);
+.green {
+  background-color: rgba(193, 239, 193, 0.423);
+
   width: 300px;
   padding: 10px;
   border-radius: 10px;
   margin: 0 0 8px 0;
 }
 
-.blue{
-  background-color: var(--primary-blue);
+.blue {
+  background-color: var(--pale-blue);
   width: 300px;
   padding: 10px;
   border-radius: 10px;
+}
+button {
+  width: 320px;
+  padding: 15px;
+  border-radius: 30px;
+  margin-left: 25px;
+  background-color: darkblue;
+  color: white;
+}
+.reaction-red {
+  color: var(--primary);
+  opacity: 0.9;
+}
+.num-right {
+  padding-left: 180px;
+  color: black;
+}
+.verbal-green {
+  color: green;
+}
+.memory-yellow {
+  color: rgb(232, 170, 13);
+}
+.visual-blue {
+  color: blue;
 }
