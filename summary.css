@@ -8,10 +8,10 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+  
   }
 
 
@@ -19,4 +19,26 @@ header {
   background-color: var(--secondary-violet);
   color: white;
 
+}
+
+header p {
+  text-align: center;
+}
+
+.circle-num {
+  background-color: blueviolet;
+  width: 152px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 7rem;
+}
+
+.test{
+  padding-top: 15px;
+}
+
+.test :first-child{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0%;
 }
