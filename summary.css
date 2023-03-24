@@ -1,0 +1,22 @@
+:root {
+  --primary: hsl(0, 100%, 67%);
+  --primary-yellow: hsl(39, 100%, 56%);
+  --primary-green: hsl(166, 100%, 37%);
+  --primary-blue: hsl(234, 85%, 45%);
+  --secondary-violet: hsla(256, 72%, 46%, 1);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+
+header {
+  background-color: var(--secondary-violet);
+  color: white;
+
+}
