@@ -11,7 +11,10 @@
   --secondary-cobalt: hsl(234, 85%, 45%);
   --liner-blue: hsl(241, 81%, 54%);
   --liner-violet: hsl(252, 100%, 67%);
+  --second-blue: hsla(241, 72%, 46%, 0);
 }
+
+
 body {
   border: 0;
 }
@@ -24,21 +27,18 @@ body {
 }
 
 header {
-  background-color: blue;
-  background: linear-gradient(to top violet);
-
-  color: white;
-  height: 400px;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-}
+    background-image: linear-gradient(var(--liner-violet), var(--liner-blue));
+    color: white;
+    height: 400px;
+    border-radius: 15px;
+  }
 
 header p {
   text-align: center;
 }
 
 .circle-num {
-  background-color: blueviolet;
+  background-image: linear-gradient(var(--secondary-violet), var(--second-blue));
   width: 152px;
   height: 150px;
   border-radius: 50%;
@@ -65,15 +65,6 @@ header p {
   margin: 20px 15px 0px 15px;
   font-size: 18px;
 }
-/*
- .summary{
-display: grid;
-align-content: center;
-justify-content: start;
-align-items: center;
-justify-items: start;
-}
-*/
 
 .summary-list {
   list-style: none;
