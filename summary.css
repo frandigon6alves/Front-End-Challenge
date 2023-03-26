@@ -13,9 +13,12 @@
   --liner-violet: hsl(252, 100%, 67%);
 }
 body {
-  border: 0;
+  margin: 0;
+  /* font-family: "Hanken Grotesk", sans-serif; */
 }
-
+h3 {
+  margin-left: 2.1rem;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -24,8 +27,8 @@ body {
 }
 
 header {
-  background-color: blue;
-  background: linear-gradient(to top violet);
+  /* background-color: blue; */
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 
   color: white;
   height: 400px;
@@ -38,7 +41,7 @@ header p {
 }
 
 .circle-num {
-  background-color: blueviolet;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 92%, 40%));
   width: 152px;
   height: 150px;
   border-radius: 50%;
@@ -64,6 +67,8 @@ header p {
   padding-top: 15px;
   margin: 20px 15px 0px 15px;
   font-size: 18px;
+  font-weight: 800;
+  color: rgba(226, 217, 217, 0.804);
 }
 /*
  .summary{
@@ -80,7 +85,7 @@ justify-items: start;
   gap: 2px;
   display: grid;
   padding: 0;
-  margin-left: 25px;
+  margin-left: 35px;
 }
 
 .red {
@@ -118,13 +123,21 @@ button {
   width: 320px;
   padding: 15px;
   border-radius: 30px;
-  margin-left: 25px;
+  margin-left: 36px;
   background-color: darkblue;
   color: white;
 }
 .reaction-red {
   color: var(--primary);
   opacity: 0.9;
+}
+.num-right-red {
+  padding-left: 160px;
+  color: black;
+}
+.num-right-yellow {
+  padding-left: 160px;
+  color: black;
 }
 .num-right {
   padding-left: 180px;
@@ -138,4 +151,7 @@ button {
 }
 .visual-blue {
   color: blue;
+}
+#num-grey {
+  color: rgba(0, 0, 0, 0.349);
 }
