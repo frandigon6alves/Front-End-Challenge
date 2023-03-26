@@ -14,7 +14,6 @@
   --second-blue: hsla(241, 72%, 46%, 0);
 }
 
-
 body {
   margin: 0;
   /* font-family: "Hanken Grotesk", sans-serif; */
@@ -30,7 +29,6 @@ h3 {
 }
 
 header {
-<<<<<<< HEAD
   /* background-color: blue; */
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 
@@ -39,24 +37,13 @@ header {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-=======
-    background-image: linear-gradient(var(--liner-violet), var(--liner-blue));
-    color: white;
-    height: 400px;
-    border-radius: 15px;
-  }
->>>>>>> dca80e4fd42aff1bd84acba2893e5599e07dfbaa
 
 header p {
   text-align: center;
 }
 
 .circle-num {
-<<<<<<< HEAD
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 92%, 40%));
-=======
-  background-image: linear-gradient(var(--secondary-violet), var(--second-blue));
->>>>>>> dca80e4fd42aff1bd84acba2893e5599e07dfbaa
   width: 152px;
   height: 150px;
   border-radius: 50%;
@@ -160,4 +147,22 @@ button {
 }
 #num-grey {
   color: rgba(0, 0, 0, 0.349);
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: rgb(240, 240, 239);
+  }
+  .container {
+    display: flex;
+  }
+  header {
+    border-radius: 20px;
+  }
+  .circle-num {
+    margin-left: 4.3rem;
+  }
+  .summary {
+    background-color: beige;
+  }
 }
