@@ -155,14 +155,24 @@ button {
   }
   .container {
     display: flex;
+    margin-top: 120px;
   }
   header {
     border-radius: 20px;
+    width: 300px;
   }
   .circle-num {
     margin-left: 4.3rem;
   }
   .summary {
-    background-color: beige;
+    background-color: rgba(247, 247, 236, 0.439);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .summary-list {
+    margin: 32px;
+  }
+  .description P {
+    font-size: 15px;
   }
 }
