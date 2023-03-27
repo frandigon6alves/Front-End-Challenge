@@ -78,7 +78,7 @@ header p {
   gap: 2px;
   display: grid;
   padding: 0;
-  margin-left: 35px;
+  margin-left: 28px;
 }
 
 .red {
@@ -116,7 +116,7 @@ button {
   width: 320px;
   padding: 15px;
   border-radius: 30px;
-  margin-left: 36px;
+  margin-left: 31px;
   background-color: darkblue;
   color: white;
 }
@@ -127,14 +127,17 @@ button {
 .num-right-red {
   padding-left: 160px;
   color: black;
+  font-weight: bold;
 }
 .num-right-yellow {
   padding-left: 160px;
   color: black;
+  font-weight: bold;
 }
 .num-right {
   padding-left: 180px;
   color: black;
+  font-weight: bold;
 }
 .verbal-green {
   color: green;
@@ -147,6 +150,13 @@ button {
 }
 #num-grey {
   color: rgba(0, 0, 0, 0.349);
+}
+.attribution a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.attribution {
+  font-size: 14px;
 }
 
 @media (min-width: 600px) {
@@ -162,7 +172,7 @@ button {
     width: 300px;
   }
   .circle-num {
-    margin-left: 4.3rem;
+    margin-left: 4.5rem;
   }
   .summary {
     background-color: rgba(247, 247, 236, 0.439);
@@ -174,5 +184,9 @@ button {
   }
   .description P {
     font-size: 15px;
+  }
+  .attribution {
+    font-size: 15px;
+    margin-top: 120px;
   }
 }
